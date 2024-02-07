@@ -13,6 +13,8 @@
 		AA53EE242B6C85BC00112E85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA53EE222B6C85BC00112E85 /* Main.storyboard */; };
 		AA53EE262B6C85BE00112E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA53EE252B6C85BE00112E85 /* Assets.xcassets */; };
 		AA53EE292B6C85BE00112E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA53EE272B6C85BE00112E85 /* LaunchScreen.storyboard */; };
+		AA6286532B740DD800158314 /* ColorsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6286522B740DD800158314 /* ColorsDetailViewController.swift */; };
+		AA6286552B74247E00158314 /* UIcolorExtension .swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6286542B74247E00158314 /* UIcolorExtension .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AA53EE252B6C85BE00112E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA53EE282B6C85BE00112E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA53EE2A2B6C85BE00112E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6286522B740DD800158314 /* ColorsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailViewController.swift; sourceTree = "<group>"; };
+		AA6286542B74247E00158314 /* UIcolorExtension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcolorExtension .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				AA53EE1C2B6C85BC00112E85 /* AppDelegate.swift */,
 				AA53EE1E2B6C85BC00112E85 /* SceneDelegate.swift */,
 				AA53EE202B6C85BC00112E85 /* ViewController.swift */,
+				AA6286522B740DD800158314 /* ColorsDetailViewController.swift */,
+				AA6286542B74247E00158314 /* UIcolorExtension .swift */,
 				AA53EE222B6C85BC00112E85 /* Main.storyboard */,
 				AA53EE252B6C85BE00112E85 /* Assets.xcassets */,
 				AA53EE272B6C85BE00112E85 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA53EE212B6C85BC00112E85 /* ViewController.swift in Sources */,
+				AA6286552B74247E00158314 /* UIcolorExtension .swift in Sources */,
 				AA53EE1D2B6C85BC00112E85 /* AppDelegate.swift in Sources */,
+				AA6286532B740DD800158314 /* ColorsDetailViewController.swift in Sources */,
 				AA53EE1F2B6C85BC00112E85 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +302,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,9 +310,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MA.RandomColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,6 +333,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,9 +341,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MA.RandomColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
